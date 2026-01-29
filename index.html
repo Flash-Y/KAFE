@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+  <header>
+    <nav class="navbar section-content">
+      
+
+      <a href="#" class="nav-logo">
+      <img src="Images/LOGO FRO WEBPAGE.png" class="logo-img">
+        <h2 class="logo-text">KAFÉ</h2>
+      </a>
+
+      <ul class="nav-menu">
+        <button id="menu-close-button" class="fas fa-times"></button>
+        <li class="nav-item">
+          <a href="#" class="nav-link">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu" class="nav-link">MENU</a>
+        </li>
+        <li class="nav-item">
+          <a href="#testimonials" class="nav-link">TESTIMONIALS</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Login</a>
+        </li>
+      </ul>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+        
+    </nav>
+  </header>
+
+  <main>
+    <!-- Contents and writings of front page-->
+    <section class="hero-section">
+      <div class="section-content">
+        <div class="detail">
+          <h2 class="title">Best Coffee</h2>
+          <h3 class="subtitle">Make your day great with our special coffee!</h3>
+          <p class="desc">Welcome to our coffee paradise,where every bean tells the story and every cup sparks joy.</p>
+
+          <div class="buttons">
+            <a href="#" class="button order-now">Order Now</a>
+            <a href="#" class="button contact-us">Contact Us</a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <img src="Images/coffee-hero-section.png" alt="Hero" class="hero-image">
+        </div>
+      </div>
+    </section>
+
+      <!-- About us section -->
+    <section class="about-section" id="about">
+      <div class="section-content">
+        <div class="image-wrapper">
+          <img src="Images/about.png" alt="About" class="about-image">
+        </div>
+        <div class="about-details">
+          <h2 class="section-title">About Us</h2>
+          <p class="text">At KAFÉ, coffee is more than a drink it’s a culture, a pause, and a connection. Nestled in the serene hills of Kavre, Nepal, we are inspired by nature, craftsmanship, and the simple joy of a perfectly brewed. <br> <br>
+          We source and prepare our coffee with care, blending modern brewing techniques with a deep respect for quality and authenticity. Every cup at KAFÉ reflects our commitment to rich flavor, freshness, and consistency whether you’re starting your day, meeting friends, or taking a quiet moment for yourself. <br> <br>
+          Rooted in the calm and creativity of Kavre, KAFÉ is a space where locals and travelers come together. Our atmosphere is warm, minimal, and inviting designed to make you feel at home while enjoying coffee that energizes and inspires. <br><br>
+          At KAFÉ, we believe great coffee tells a story and ours begins in Kavre, brewed just for you.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu section -->
+     <section class="menu-section" id="menu">
+      <h2 class="section-title">Our Menu</h2>
+      <div class="section-content">
+        <ul class="menu-list">
+          <li class="menu-items">
+            <img src="Images/hot-beverages.png" alt="Hot-Beverages" class="menu-image">
+            <h3 class="name">Hot Beverages</h3>
+            <p class="text">Wide range of Steaming hot coffee to make you fresh and light.</p>
+          </li>
+
+          <li class="menu-items">
+            <img src="Images/cold-beverages.png" alt="Cold-Beverages" class="menu-image">
+            <h3 class="name">Cold Beverages</h3>
+            <p class="text">Fruit and icy refreshing drink to make feel refresh.</p>
+          </li>
+
+          <!-- <li class="menu-items">
+            <img src="images/special-combo.png" alt="Special-Beverages" class="menu-image">
+            <h3 class="name">Special Beverages</h3>
+            <p class="text">Your favourite eating and drinking combinations.</p>
+          </li> -->
+
+          <li class="menu-items">
+            <img src="Images/desserts.png" alt="Desserts" class="menu-image">
+            <h3 class="name">Desserts</h3>
+            <p class="text">Satitate your palate and take you on a culinary treat.</p>
+          </li>
+
+        </ul>
+      </div>
+     </section>
+
+     <!-- Testimonials Section -->
+     <section class="testimonials-section" id="testimonials">
+      <h2 class="section-title">Testimonials</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper"><ul class="testimonials-list swiper-wrapper">
+              <li class="testimonial swiper-slide">
+                <img src="Images/user-1.jpg" alt="User" class="user-image">
+                <h3 class="name">John Doe</h3>
+                <i class="feedback">The coffee is rich and smooth, and the view of Kavre makes it even better. KAFÉ feels peaceful and welcoming a place you want to come back to again and again!</i>
+              </li>
+
+              <li class="testimonial swiper-slide">
+                <img src="Images/user-2.jpg" alt="User" class="user-image">
+                <h3 class="name">John Rai</h3>
+                <i class="feedback">I loved how calm and aesthetic this place is. The aroma, the music, and the vibe are just perfect. One of the best coffee spots I’ve visited outside the city.</i>
+              </li>
+
+              <li class="testimonial swiper-slide">
+                <img src="Images/user-3.jpg" alt="User" class="user-image">
+                <h3 class="name">Saraha</h3>
+                <i class="feedback">Stopped by KAFÉ while traveling through Kavre and was honestly impressed. Great coffee, friendly staff, and a very cozy atmosphere. Highly recommended.</i>
+              </li>
+
+              <li class="testimonial swiper-slide">
+                <img src="Images/user-4.jpg" alt="User" class="user-image">
+                <h3 class="name">Nisha Rai</h3>
+                <i class="feedback">The attention to detail here is amazing. You can feel the passion behind every cup. A must visit café if you’re in Kavre.</i>
+              </li>
+
+              <li class="testimonial swiper-slide">
+                <img src="Images/user-5.jpg" alt="User" class="user-image">
+                <h3 class="name">Suman Timalsina</h3>
+                <i class="feedback">KAFÉ has such a clean and modern vibe while still feeling warm and local. Perfect spot to relax, work, or just enjoy a good cup of coffee!</i>
+              </li>
+            </ul>
+
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+          </div>
+          </div>
+        </div>
+     </section>
+
+     <!-- Footer Section -->
+     <footer class="footer-section">
+      <div class="footer-content">
+        <div class="section-content">
+          <p class="copyright-text">@ 2026 Coffee Shop</p>
+          
+          <div class="social-link-list">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+
+          <p class="policy-text">
+            <a href="#" class="policy-link">Privacy Policy</a> 
+            <span class="seperator">•</span>
+            <a href="#" class="policy-link">Refund Policy </a>
+          </p>
+        </div>
+      </div>
+
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="JS/script.js"></script>
+</body>
+</html>
